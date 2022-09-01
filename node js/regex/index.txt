@@ -1,0 +1,5 @@
+domain validate  ==>  ([a-z]{3}\.)?([\w\-\_]{2,})\.([a-z]{2,6})  =  examples  ==>  [www.example.com , www.exam-ple_.com , example.com , examples.ir ]
+iran number validate  ==>  (\+?)(\d{1,2})?([-\s]?)(0?)(9[1-9]{2})([-\s]?)(\d{3})([-\s]?)(\d{4})  =  examples  ==>  [ 09385051602 , 0938 505 1602 , 0938-505-1602 , +989385051602 , +98938 505 1602 , +98-938-505-1602 , 9385051602 , 938 505 1602 , 938-505-1602  ]
+email validate  ==>  ^([a-z]+[a-z0-9\.\_]{3,40})(\@)([a-z]{2,8})(\.)([a-z]{2,7})$  =  examples  ==>  [m.h.tazaroie753@gmail.com , m.h.tazaroie753@aoutlook.com  , m.h.tazaroie753@yahoo.com ]
+
+
